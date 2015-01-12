@@ -1,0 +1,94 @@
+/*
+ * A partial implementation of the Ruby list functions from Compass:
+ * https://github.com/Compass/compass/blob/stable/lib/compass/sass_extensions/functions/lists.rb
+ */
+/*
+ * A partial implementation of the Ruby constants functions from Compass:
+ * https://github.com/Compass/compass/blob/stable/lib/compass/sass_extensions/functions/constants.rb
+ */
+/*
+ * A partial implementation of the Ruby display functions from Compass:
+ * https://github.com/Compass/compass/blob/stable/core/lib/compass/core/sass_extensions/functions/display.rb
+ */
+*[data-tooltip] {
+  position: relative; }
+
+.tooltip-content {
+  position: relative;
+  position: relative;
+  -webkit-transition: opacity 0.25s;
+  -webkit-transition-delay: ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+          transition: opacity 0.25s ease-in-out;
+  box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  display: none;
+  top: auto;
+  z-index: 1;
+  min-width: 210px;
+  max-width: 450px;
+  opacity: 0;
+  bottom: auto;
+  padding: 16px;
+  background-color: #FFF;
+  border: 1px solid #dcdcdc;
+  margin-top: 13px;
+  cursor: default; }
+  .tooltip-content:before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom-color: #CCC;
+    z-index: 1; }
+  .tooltip-content:after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -9px;
+    width: 0;
+    height: 0;
+    border: 9px solid transparent;
+    border-bottom-color: #FFF;
+    z-index: 2; }
+  .tooltip-content.fade {
+    opacity: 1; }
+  .tooltip-content.show {
+    display: block; }
+  .tooltip-content.top {
+    box-shadow: -2px -1px 3px rgba(0, 0, 0, 0.15);
+    position: relative;
+    position: relative;
+    position: absolute;
+    bottom: 1.8em; }
+    .tooltip-content.top:before {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -10px;
+      width: 0;
+      height: 0;
+      border: 10px solid transparent;
+      border-top-color: #CCC;
+      z-index: 1; }
+    .tooltip-content.top:after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -9px;
+      width: 0;
+      height: 0;
+      border: 9px solid transparent;
+      border-top-color: #FFF;
+      z-index: 2; }
+    .tooltip-content.top:before, .tooltip-content.top:after {
+      left: 40px; }
+  .tooltip-content:before, .tooltip-content:after {
+    left: 40px; }

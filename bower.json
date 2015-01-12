@@ -1,20 +1,25 @@
 {
-    "name": "bskyb-tooltip",
-    "version": "0.0.0",
-    "homepage": "https://github.com/damnhipster/tooltip",
-    "authors": [
-        "git.user-name <{{ git.user-email }}>"
-    ],
-    "description": "tooltip",
-    "main": "dist",
-    "license": "BSD3",
-    "ignore": [
-        "**/*",
-        "!dist/**/*",
-        "!src/**/*"
-    ],
-    "devDependencies": {
-        "bskyb-colours": "~0.1.0",
-        "bskyb-typography": "~0.1.0"
-    }
+  "name": "bskyb-tooltip",
+  "version": "0.0.0",
+  "homepage": "https://github.com/damnhipster/tooltip",
+  "authors": [
+    "git.user-name <{{ git.user-email }}>"
+  ],
+  "description": "tooltip",
+  "main": "dist",
+  "license": "BSD3",
+  "ignore": [
+    "**/*",
+    "!dist/**/*",
+    "!src/**/*"
+  ],
+  "devDependencies": {
+    "bskyb-utils": "~0.0.0",
+    "bskyb-colours": "~0.1.0",
+    "bskyb-typography": "~0.1.0",
+    "bskyb-skycons": "~0.2.0"
+  },
+  "dependencies": {
+    "compass-mixins": "~1.0.2"
+  }
 }
