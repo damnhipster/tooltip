@@ -8,9 +8,10 @@
 
 Include the Share assets in your project either as **Static Resources**
 
-```
+```html
 <link rel="stylesheet" href="http://web-toolkit.global.sky.com/components/tooltip/0.0.0/css/tooltip.css" />
 <script type="text/javascript" src="http://web-toolkit.global.sky.com/components/tooltip/0.0.0/js/tooltip.min.js"></script>
+```
 
 or alternatively, **Via Bower**
 
@@ -35,7 +36,7 @@ Choose a type of tooltip component and copy the relevant html.
 
 To enable --descrition here--, the JS must be initialised:
 
-```
+```html
 <script type="text/javascript">
   skyComponents.tooltip.init();
 </script>
